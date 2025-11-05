@@ -1,0 +1,31 @@
+# Core LLM + LangChain
+langchain>=0.2.14
+langchain-community>=0.2.10
+langchain-core>=0.2.10
+openai>=1.40.0
+
+# Vector database and embeddings
+chromadb>=0.5.3
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0.post1
+
+# PDF and text file loading
+pypdf>=4.2.0
+unstructured>=0.15.0
+pdfminer-six>=20221105
+
+# Web interface
+streamlit>=1.37.0
+
+# Environment management
+python-dotenv>=1.0.1
+
+# Utility libraries
+tqdm>=4.66.2
+numpy>=1.26.0
+
+# Optional - for web scraping or future RAG extensions
+requests>=2.32.0
+beautifulsoup4>=4.12.3
+
+
